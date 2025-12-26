@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - ATELIER</title>
+  <meta name="description" content="Get in touch with ATELIER. Let's discuss how we can transform your space.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">ATELIER</a>
+      
+      <nav class="nav-desktop">
+        <ul>
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="facilities.html" class="nav-link">Facilities</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-btn" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-mobile">
+        <ul>
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="facilities.html" class="nav-link">Facilities</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="section page-hero">
+    <div class="container">
+      <p class="section-label">Get in Touch</p>
+      <h1 class="section-title">Contact</h1>
+      <p class="section-description" style="margin: 0 auto;">
+        Ready to start your project? We'd love to hear from you.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Contact Form -->
+        <div>
+          <form class="contact-form">
+            <div class="form-group">
+              <label class="form-label" for="name">Name</label>
+              <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="email">Email</label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="subject">Subject</label>
+              <select id="subject" name="subject" class="form-select" required>
+                <option value="">Select a subject</option>
+                <option value="general">General Inquiry</option>
+                <option value="project">New Project</option>
+                <option value="collaboration">Collaboration</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="message">Message</label>
+              <textarea id="message" name="message" class="form-textarea" placeholder="Tell us about your project..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <h3>Email</h3>
+            <p>hello@atelier.com</p>
+          </div>
+
+          <div class="contact-info-item">
+            <h3>Phone</h3>
+            <p>+1 (555) 123-4567</p>
+          </div>
+
+          <div class="contact-info-item">
+            <h3>Location</h3>
+            <p>123 Design Street<br>New York, NY 10001</p>
+          </div>
+
+          <div class="contact-info-item">
+            <h3>Hours</h3>
+            <p>Monday – Friday<br>9:00 AM – 6:00 PM EST</p>
+          </div>
+
+          <div class="map-placeholder">
+            Map Placeholder
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">ATELIER</a>
+          <p>Premium spaces designed for exceptional experiences. Where sophistication meets functionality.</p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Navigate</h4>
+          <div class="footer-links">
+            <a href="index.html" class="footer-link">Home</a>
+            <a href="services.html" class="footer-link">Services</a>
+            <a href="facilities.html" class="footer-link">Facilities</a>
+            <a href="contact.html" class="footer-link">Contact</a>
+          </div>
+        </div>
+
+        <div class="footer-contact">
+          <h4 class="footer-title">Contact</h4>
+          <p>hello@atelier.com</p>
+          <p>+1 (555) 123-4567</p>
+          <p>123 Design Street<br>New York, NY 10001</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 Atelier. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
